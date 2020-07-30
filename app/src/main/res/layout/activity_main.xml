@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!-- activity_main.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/screen1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene_01"
+        tools:showPaths="true">
+
+        <ImageView
+            android:id="@+id/houyi"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/houyi_model"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8" />
+
+        <ImageView
+            android:id="@+id/houyi_arrow"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/yase"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/yase_model" />
+
+        <ImageView
+            android:id="@+id/luban"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.58"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.26"
+            android:src="@drawable/luban_model" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motionLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene_02"
+        tools:showPaths="true">
+
+
+        <ImageView
+            android:id="@+id/daji"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/daji_model" />
+
+        <ImageView
+            android:id="@+id/zhongwuyan"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/zhongwuyan_model" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motionLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene_03"
+        tools:showPaths="true">
+
+
+        <ImageView
+            android:id="@+id/daji_1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/daji_1" />
+
+        <ImageView
+            android:id="@+id/daji_2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/daji_2" />
+
+        <ImageView
+            android:id="@+id/zhongwuyan2"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/zhongwuyan_model" />
+
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

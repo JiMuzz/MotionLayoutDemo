@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetEnd="@+id/end"
+        app:constraintSetStart="@+id/start"
+        app:duration="4000">
+
+        <KeyFrameSet>
+
+            <!-- 钟无艳-->
+            <KeyAttribute
+                app:framePosition="20"
+                app:motionTarget="@id/zhongwuyan2"
+                android:rotationY="0" />
+
+            <KeyAttribute
+                app:framePosition="1"
+                app:motionTarget="@id/zhongwuyan"
+                android:alpha="1" />
+
+            <!-- 妲己2技能-->
+
+            <KeyPosition
+                app:motionTarget="@id/daji_2"
+                app:framePosition="20"
+                app:keyPositionType="deltaRelative"
+                app:percentY="0"
+                app:percentX="0"
+                />
+
+            <KeyAttribute
+                app:framePosition="20"
+                app:motionTarget="@id/daji_2"
+                android:alpha="1" />
+
+            <KeyPosition
+                app:motionTarget="@id/daji_2"
+                app:framePosition="60"
+                app:keyPositionType="deltaRelative"
+                app:percentY="1"
+                app:percentX="1"
+                />
+
+            <KeyAttribute
+                app:framePosition="40"
+                app:motionTarget="@id/daji_2"
+                android:alpha="1" />
+
+            <KeyAttribute
+                app:framePosition="61"
+                app:motionTarget="@id/daji_2"
+                android:alpha="0" />
+
+
+            <!-- 妲己1技能-->
+
+            <KeyAttribute
+                app:framePosition="55"
+                app:motionTarget="@id/daji_1"
+                android:alpha="1" />
+
+            <KeyPosition
+                app:motionTarget="@id/daji_1"
+                app:framePosition="55"
+                app:keyPositionType="deltaRelative"
+                app:percentY="0"
+                app:percentX="0"
+                />
+
+            <KeyAttribute
+                app:framePosition="85"
+                app:motionTarget="@id/daji_1"
+                android:alpha="1" />
+
+        </KeyFrameSet>
+
+        <OnClick
+            app:clickAction="toggle"
+            app:targetId="@id/zhongwuyan2" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+
+
+        <Constraint
+            android:id="@+id/zhongwuyan2"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+        </Constraint>
+
+        <Constraint
+            android:id="@+id/daji_2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6">
+
+        </Constraint>
+
+
+        <Constraint
+            android:id="@+id/daji_1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6">
+
+        </Constraint>
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+
+        <Constraint
+            android:id="@+id/zhongwuyan2"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:alpha="1"
+            android:rotationY="7200"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+        </Constraint>
+
+        <Constraint
+            android:id="@+id/daji_2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.58"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+        </Constraint>
+
+        <Constraint
+            android:id="@+id/daji_1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.61"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+        </Constraint>
+    </ConstraintSet>
+
+
+</MotionScene>
+        
