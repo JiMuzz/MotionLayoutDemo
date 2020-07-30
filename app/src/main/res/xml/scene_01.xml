@@ -50,7 +50,7 @@
             android:id="@+id/houyi_arrow"
             android:layout_width="66dp"
             android:layout_height="66dp"
-            android:layout_marginLeft="130dp"
+            android:layout_marginLeft="190dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"

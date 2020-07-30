@@ -49,8 +49,8 @@
     <ConstraintSet android:id="@+id/start">
         <Constraint
             android:id="@+id/daji"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.75"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -62,8 +62,8 @@
 
         <Constraint
             android:id="@+id/zhongwuyan"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.25"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -77,8 +77,8 @@
     <ConstraintSet android:id="@+id/end">
         <Constraint
             android:id="@+id/daji"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.65"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -90,8 +90,8 @@
 
         <Constraint
             android:id="@+id/zhongwuyan"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:alpha="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.42"

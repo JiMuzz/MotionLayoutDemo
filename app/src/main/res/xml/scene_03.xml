@@ -86,8 +86,8 @@
 
         <Constraint
             android:id="@+id/zhongwuyan2"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:alpha="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.62"
@@ -133,10 +133,10 @@
 
         <Constraint
             android:id="@+id/zhongwuyan2"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:alpha="1"
-            android:rotationY="7200"
+            android:rotationY="3600"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.62"
             app:layout_constraintLeft_toLeftOf="parent"

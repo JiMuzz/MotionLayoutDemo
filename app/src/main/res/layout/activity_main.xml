@@ -25,7 +25,7 @@
             android:id="@+id/houyi"
             android:layout_width="66dp"
             android:layout_height="66dp"
-            android:layout_marginLeft="120dp"
+            android:layout_marginLeft="180dp"
             android:src="@drawable/houyi_model"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -68,14 +68,14 @@
 
         <ImageView
             android:id="@+id/daji"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:src="@drawable/daji_model" />
 
         <ImageView
             android:id="@+id/zhongwuyan"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:src="@drawable/zhongwuyan_model" />
 
     </androidx.constraintlayout.motion.widget.MotionLayout>
